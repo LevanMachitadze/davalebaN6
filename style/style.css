@@ -80,7 +80,6 @@ img {
 }
 @media screen and (max-width: 767px) {
   body {
-    width: 375px;
     height: 1360px;
   }
   .head {
@@ -98,6 +97,8 @@ img {
     font-size: 15px;
   }
   .containers {
+    width: 100%;
+    justify-items: center;
     grid-template-columns: 1fr 311px 1fr;
     grid-template-rows: 222px 25px 222px 25px 222px 25px 222px 56px;
   }
